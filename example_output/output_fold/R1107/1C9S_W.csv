@@ -1,0 +1,133 @@
+; FOLDALIGN           v2.5.3
+; REFERENCE           D. Sundfeld, J.H. Havgaard, A.C. de Melo, and J. Gorodkin
+; REFERENCE           Foldalign 2.5: multithreaded implementation for pairwise
+; REFERENCE           structural RNA alignment.
+; REFERENCE           Bioinformatics 2016, 32(8):1238-1240,
+; REFERENCE           doi: 10.1093/bioinformatics/btv748
+; ALIGNMENT_ID        n.a.
+; ALIGNING            seq against 1C9S_W
+; PARAMETER           max_length=69
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=55
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; SEQUENCE_LENGTH     seq = 69
+; SEQUENCE_LENGTH     1C9S_W = 55
+; GC_CONTENT_SEQ_1    0.64
+; GC_CONTENT_SEQ_2    0.4
+; SEQUENCE_1_COMMENT  
+; SEQUENCE_2_COMMENT  
+; ALIGN               
+; ALIGN               Score: -48
+; ALIGN               Identity: 58 % ( 7 / 12 )
+; ALIGN               
+; ALIGN               seq           Begin 10
+; ALIGN               1C9S_W        Begin 42
+; ALIGN               
+; ALIGN               seq           AGCAGAAGCG UU
+; ALIGN               Structure     ((........ ))
+; ALIGN               1C9S_W        AUGAGAUGAG AU
+; ALIGN               
+; ALIGN               seq           End 21
+; ALIGN               1C9S_W        End 53
+; ==============================================================================
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               seq
+; ALIGNMENT_ID        n.a.
+; ALIGNMENT_LIST      seq 1C9S_W
+; FOLDALIGN_SCORE     -48
+; GROUP               1
+; FILENAME            example/R1107.fasta
+; START_POSITION      10
+; END_POSITION        21
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    12
+; SEQUENCE_LENGTH     69
+; SEQUENCE_GC_CONTENT 0.64
+; PARAMETER           max_length=69
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=55
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         A        10         1        12        21
+N         G        11         2        11        20
+N         C        12         3         .         .
+N         A        13         4         .         .
+N         G        14         5         .         .
+N         A        15         6         .         .
+N         A        16         7         .         .
+N         G        17         8         .         .
+N         C        18         9         .         .
+N         G        19        10         .         .
+N         U        20        11         2        11
+N         U        21        12         1        10
+; ******************************************************************************
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               1C9S_W
+; ALIGNMENT_ID        n.a.
+; ALIGNMENT_LIST      seq 1C9S_W
+; FOLDALIGN_SCORE     -48
+; GROUP               2
+; FILENAME            202210b_fasta_noT_len_lib/1C9S_W.fasta
+; START_POSITION      42
+; END_POSITION        53
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    12
+; SEQUENCE_LENGTH     55
+; SEQUENCE_GC_CONTENT 0.4
+; PARAMETER           max_length=69
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=55
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         A        42         1        12        53
+N         U        43         2        11        52
+N         G        44         3         .         .
+N         A        45         4         .         .
+N         G        46         5         .         .
+N         A        47         6         .         .
+N         U        48         7         .         .
+N         G        49         8         .         .
+N         A        50         9         .         .
+N         G        51        10         .         .
+N         A        52        11         2        43
+N         U        53        12         1        42
+; ******************************************************************************

@@ -1,0 +1,149 @@
+; FOLDALIGN           v2.5.3
+; REFERENCE           D. Sundfeld, J.H. Havgaard, A.C. de Melo, and J. Gorodkin
+; REFERENCE           Foldalign 2.5: multithreaded implementation for pairwise
+; REFERENCE           structural RNA alignment.
+; REFERENCE           Bioinformatics 2016, 32(8):1238-1240,
+; REFERENCE           doi: 10.1093/bioinformatics/btv748
+; ALIGNMENT_ID        n.a.
+; ALIGNING            seq against 1DDY_E
+; PARAMETER           max_length=60
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=35
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; SEQUENCE_LENGTH     seq = 69
+; SEQUENCE_LENGTH     1DDY_E = 35
+; GC_CONTENT_SEQ_1    0.64
+; GC_CONTENT_SEQ_2    0.6
+; SEQUENCE_1_COMMENT  
+; SEQUENCE_2_COMMENT  
+; ALIGN               
+; ALIGN               Score: 128
+; ALIGN               Identity: 35 % ( 7 / 20 )
+; ALIGN               
+; ALIGN               seq           Begin 39
+; ALIGN               1DDY_E        Begin 11
+; ALIGN               
+; ALIGN               seq           CAGCCAUUGC ACUCCGGCUG
+; ALIGN               Structure     (((((..... .....)))))
+; ALIGN               1DDY_E        CGCAUAACCA CCUCAGUGCG
+; ALIGN               
+; ALIGN               seq           End 58
+; ALIGN               1DDY_E        End 30
+; ==============================================================================
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               seq
+; ALIGNMENT_ID        n.a.
+; ALIGNMENT_LIST      seq 1DDY_E
+; FOLDALIGN_SCORE     128
+; GROUP               1
+; FILENAME            example/R1107.fasta
+; START_POSITION      39
+; END_POSITION        58
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    20
+; SEQUENCE_LENGTH     69
+; SEQUENCE_GC_CONTENT 0.64
+; PARAMETER           max_length=60
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=35
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         C        39         1        20        58
+N         A        40         2        19        57
+N         G        41         3        18        56
+N         C        42         4        17        55
+N         C        43         5        16        54
+N         A        44         6         .         .
+N         U        45         7         .         .
+N         U        46         8         .         .
+N         G        47         9         .         .
+N         C        48        10         .         .
+N         A        49        11         .         .
+N         C        50        12         .         .
+N         U        51        13         .         .
+N         C        52        14         .         .
+N         C        53        15         .         .
+N         G        54        16         5        43
+N         G        55        17         4        42
+N         C        56        18         3        41
+N         U        57        19         2        40
+N         G        58        20         1        39
+; ******************************************************************************
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               1DDY_E
+; ALIGNMENT_ID        n.a.
+; ALIGNMENT_LIST      seq 1DDY_E
+; FOLDALIGN_SCORE     128
+; GROUP               2
+; FILENAME            202210b_fasta_noT_len_lib/1DDY_E.fasta
+; START_POSITION      11
+; END_POSITION        30
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    20
+; SEQUENCE_LENGTH     35
+; SEQUENCE_GC_CONTENT 0.6
+; PARAMETER           max_length=60
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=35
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         C        11         1        20        30
+N         G        12         2        19        29
+N         C        13         3        18        28
+N         A        14         4        17        27
+N         U        15         5        16        26
+N         A        16         6         .         .
+N         A        17         7         .         .
+N         C        18         8         .         .
+N         C        19         9         .         .
+N         A        20        10         .         .
+N         C        21        11         .         .
+N         C        22        12         .         .
+N         U        23        13         .         .
+N         C        24        14         .         .
+N         A        25        15         .         .
+N         G        26        16         5        15
+N         U        27        17         4        14
+N         G        28        18         3        13
+N         C        29        19         2        12
+N         G        30        20         1        11
+; ******************************************************************************

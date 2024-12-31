@@ -1,0 +1,21 @@
+#PARAMETERS:
+gap init:-3.0; gap ext:-1.0; structure weight:0.50
+seq sim matrix: RIBOSUM85-60.mat
+Type = global
+
+
+#Scaling factors:
+multiplication:0.418389
+shift:0.182992 
+
+#Score: -37.13
+
+
+#Alignment
+CLUSTALW
+
+seq1            GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCC------------UGUCAGCCAUU--  46   
+seq2            GCUAGCGAGACCCCGUCUCUGCCGGGCGCGGUGGCGCGCGCCUGUAGUCCCAGCUACUCG  60   
+
+seq1            -GCACUCCGGCUGCGA--AUUCUGCU  69   
+seq2            GGAGGCUGAGGUGGGAGGAUCGCUAG  86   

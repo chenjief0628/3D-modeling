@@ -1,0 +1,237 @@
+; FOLDALIGN           v2.5.3
+; REFERENCE           D. Sundfeld, J.H. Havgaard, A.C. de Melo, and J. Gorodkin
+; REFERENCE           Foldalign 2.5: multithreaded implementation for pairwise
+; REFERENCE           structural RNA alignment.
+; REFERENCE           Bioinformatics 2016, 32(8):1238-1240,
+; REFERENCE           doi: 10.1093/bioinformatics/btv748
+; ALIGNMENT_ID        n.a.
+; ALIGNING            seq against 1DRZ_B
+; PARAMETER           max_length=72
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=72
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; SEQUENCE_LENGTH     seq = 69
+; SEQUENCE_LENGTH     1DRZ_B = 72
+; GC_CONTENT_SEQ_1    0.64
+; GC_CONTENT_SEQ_2    0.71
+; SEQUENCE_1_COMMENT  
+; SEQUENCE_2_COMMENT  
+; ALIGN               
+; ALIGN               Score: 567
+; ALIGN               Identity: 56 % ( 35 / 62 )
+; ALIGN               
+; ALIGN               seq           Begin 11
+; ALIGN               1DRZ_B        Begin 11
+; ALIGN               
+; ALIGN               seq           GCAGAAGCGU UCACGU---C GCAGCCCCUG U-CAGCCAUU
+; ALIGN               Structure     ((((((.... ...(((.... (((.....)) )..((((...
+; ALIGN               1DRZ_B        GUCCCAGCCU CCUCGCUGGC GCCGGCUGGG CAACACCAUU
+; ALIGN               
+; ALIGN               seq           GCACUCCGGC UGCGAAUUCU GC
+; ALIGN               Structure     .......))) ))))..)))) ))
+; ALIGN               1DRZ_B        GCACUCCGGU GGCGAAUGGG AC
+; ALIGN               
+; ALIGN               seq           End 68
+; ALIGN               1DRZ_B        End 72
+; ==============================================================================
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               seq
+; ALIGNMENT_ID        n.a.
+; ALIGNMENT_LIST      seq 1DRZ_B
+; FOLDALIGN_SCORE     567
+; GROUP               1
+; FILENAME            example/R1107.fasta
+; START_POSITION      11
+; END_POSITION        68
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    62
+; SEQUENCE_LENGTH     69
+; SEQUENCE_GC_CONTENT 0.64
+; PARAMETER           max_length=72
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=72
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         G        11         1        62        68
+N         C        12         2        61        67
+N         A        13         3        60        66
+N         G        14         4        59        65
+N         A        15         5        58        64
+N         A        16         6        57        63
+N         G        17         7         .         .
+N         C        18         8         .         .
+N         G        19         9         .         .
+N         U        20        10         .         .
+N         U        21        11         .         .
+N         C        22        12         .         .
+N         A        23        13         .         .
+N         C        24        14        54        60
+N         G        25        15        53        59
+N         U        26        16        52        58
+G         -         .        17         .         .
+G         -         .        18         .         .
+G         -         .        19         .         .
+N         C        27        20         .         .
+N         G        28        21        31        38
+N         C        29        22        30        37
+N         A        30        23        29        36
+N         G        31        24         .         .
+N         C        32        25         .         .
+N         C        33        26         .         .
+N         C        34        27         .         .
+N         C        35        28         .         .
+N         U        36        29        23        30
+N         G        37        30        22        29
+N         U        38        31        21        28
+G         -         .        32         .         .
+N         C        39        33         .         .
+N         A        40        34        51        57
+N         G        41        35        50        56
+N         C        42        36        49        55
+N         C        43        37        48        54
+N         A        44        38         .         .
+N         U        45        39         .         .
+N         U        46        40         .         .
+N         G        47        41         .         .
+N         C        48        42         .         .
+N         A        49        43         .         .
+N         C        50        44         .         .
+N         U        51        45         .         .
+N         C        52        46         .         .
+N         C        53        47         .         .
+N         G        54        48        37        43
+N         G        55        49        36        42
+N         C        56        50        35        41
+N         U        57        51        34        40
+N         G        58        52        16        26
+N         C        59        53        15        25
+N         G        60        54        14        24
+N         A        61        55         .         .
+N         A        62        56         .         .
+N         U        63        57         6        16
+N         U        64        58         5        15
+N         C        65        59         4        14
+N         U        66        60         3        13
+N         G        67        61         2        12
+N         C        68        62         1        11
+; ******************************************************************************
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               1DRZ_B
+; ALIGNMENT_ID        n.a.
+; ALIGNMENT_LIST      seq 1DRZ_B
+; FOLDALIGN_SCORE     567
+; GROUP               2
+; FILENAME            202210b_fasta_noT_len_lib/1DRZ_B.fasta
+; START_POSITION      11
+; END_POSITION        72
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    62
+; SEQUENCE_LENGTH     72
+; SEQUENCE_GC_CONTENT 0.71
+; PARAMETER           max_length=72
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=<default_local>
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=1
+; PARAMETER           j=69
+; PARAMETER           k=1
+; PARAMETER           l=72
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         G        11         1        62        72
+N         U        12         2        61        71
+N         C        13         3        60        70
+N         C        14         4        59        69
+N         C        15         5        58        68
+N         A        16         6        57        67
+N         G        17         7         .         .
+N         C        18         8         .         .
+N         C        19         9         .         .
+N         U        20        10         .         .
+N         C        21        11         .         .
+N         C        22        12         .         .
+N         U        23        13         .         .
+N         C        24        14        54        64
+N         G        25        15        53        63
+N         C        26        16        52        62
+N         U        27        17         .         .
+N         G        28        18         .         .
+N         G        29        19         .         .
+N         C        30        20         .         .
+N         G        31        21        31        41
+N         C        32        22        30        40
+N         C        33        23        29        39
+N         G        34        24         .         .
+N         G        35        25         .         .
+N         C        36        26         .         .
+N         U        37        27         .         .
+N         G        38        28         .         .
+N         G        39        29        23        33
+N         G        40        30        22        32
+N         C        41        31        21        31
+N         A        42        32         .         .
+N         A        43        33         .         .
+N         C        44        34        51        61
+N         A        45        35        50        60
+N         C        46        36        49        59
+N         C        47        37        48        58
+N         A        48        38         .         .
+N         U        49        39         .         .
+N         U        50        40         .         .
+N         G        51        41         .         .
+N         C        52        42         .         .
+N         A        53        43         .         .
+N         C        54        44         .         .
+N         U        55        45         .         .
+N         C        56        46         .         .
+N         C        57        47         .         .
+N         G        58        48        37        47
+N         G        59        49        36        46
+N         U        60        50        35        45
+N         G        61        51        34        44
+N         G        62        52        16        26
+N         C        63        53        15        25
+N         G        64        54        14        24
+N         A        65        55         .         .
+N         A        66        56         .         .
+N         U        67        57         6        16
+N         G        68        58         5        15
+N         G        69        59         4        14
+N         G        70        60         3        13
+N         A        71        61         2        12
+N         C        72        62         1        11
+; ******************************************************************************
