@@ -1,6 +1,6 @@
 ###################################################################################
+
 I-TASSER-RNA is a program for accurate de novo RNA tertiary structure prediction
-###################################################################################
 
 ######################### INSTALLATION INSTRUCTIONS ############################
 System requirements: x86_64 machine, Linux kernel OS, Free disk space of more 
@@ -30,13 +30,11 @@ b, inter-nucleotide geometires prediction
       seq.afa (MSA from rMSA)
       seq.a2m_msa (MSA from RNAcamp3)
       seq.a2m (MSA from RNAcentral by Infernal)
-      seq.
    2. output
-      npz_dist_n.txtsave_280000_cb.txt   (distance prediction is best)
-      save_28000_cb.txt	   
-      save_43000_cb.txt    (contact prerdiction is best)
-Tips: three results from three models
-contact prediction compare with RNAcontact
+      npz_dist_p.txt  (distance prediction is best)
+      npz_dist_c4.txt  (distance prediction is best)
+      npz_dist_n.txt  (distance prediction is best)
+      npz_oritention_theta.txt  (distance prediction is best)
 
 c, folding simulation
    1. input files
