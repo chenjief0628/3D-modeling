@@ -18,16 +18,21 @@ a, RNA 3D modeling needs
 a, collect all templates by threading program and other predition programs
 1. input features
    seq.fasta (query fasta)
+2. output
+   seq.afa (MSA from rMSA)
+   seq.a2m_msa (MSA from RNAcamp3)
+   seq.a2m (MSA from RNAcentral by Infernal)
+   template/*pdb
    
-
-
-b, inter-nucleotide distance prediction
+b, inter-nucleotide geometires prediction
    1. input features 
       seq.fasta (query fasta)
-      seq.txt (secondary structure predicted by Mfold/SPOT_RNA)
-      seq.aln (MSA from Infernal + data )
+      seq.afa (MSA from rMSA)
+      seq.a2m_msa (MSA from RNAcamp3)
+      seq.a2m (MSA from RNAcentral by Infernal)
+      seq.
    2. output
-      save_280000_cb.txt   (distance prediction is best)
+      npz_dist_n.txtsave_280000_cb.txt   (distance prediction is best)
       save_28000_cb.txt	   
       save_43000_cb.txt    (contact prerdiction is best)
 Tips: three results from three models
