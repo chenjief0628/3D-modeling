@@ -3,9 +3,11 @@
 I-TASSER-RNA is a program for accurate de novo RNA tertiary structure prediction
 
 ######################### INSTALLATION INSTRUCTIONS ############################
+
 System requirements: x86_64 machine, Linux kernel OS, Free disk space of more 
 	than 500GB. The vast majority of the disk space will be used to store the 
 	sequence databases.
+ 
 ######################## General information on how to run I-TASSER-RNA ############
 a, RNA 3D modeling needs 
    1. RNA sequence-structure local threading meta-alignment
@@ -13,8 +15,10 @@ a, RNA 3D modeling needs
    2. inter-nucleotide distance prediction by a deep residual network 
    3. submit RNA3D simulation jobs for first-round simulation
    4. cluster decoys and refine cluster centroid models for second-round simulation
-   5. final model selection and all-atom model construction 
+   5. final model selection and all-atom model construction
+      
  ######################## Each program in I-TASSER-RNA #################################
+ 
 a, collect all templates by threading program and other predition programs
 1. input features
    seq.fasta (query fasta)
@@ -99,5 +103,4 @@ which include:
                 Citation: Zhang C, Zhang Y, Pyle AM (2021) rMSA: accurate multiple 
 			sequence alignment generation to improve RNA structure modeling. 
 			ISMB, webinar.
-	
-		
+
