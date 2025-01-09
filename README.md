@@ -1,7 +1,14 @@
-###################################################################################
+################################################################################
+ ___    _____  _    ____ ____  _____ ____       ____  _   _    _    
+|_ _|  |_   _|/ \  / ___/ ___|| ____|  _ \     |  _ \| \ | |  / \   
+ | |_____| | / _ \ \___ \___ \|  _| | |_) |____| |_) |  \| | / _ \  
+ | |_____| |/ ___ \ ___) |__) | |___|  _ <_____|  _ <| |\  |/ ___ \ 
+|___|    |_/_/   \_\____/____/|_____|_| \_\    |_| \_\_| \_/_/   \_\
 
 I-TASSER-RNA is a program for accurate de novo RNA tertiary structure prediction
 
+Note, this is the stand-alone program, users mya also submit jobs to
+https//zhanggroup.org/I-TASSER-RNA
 ######################### INSTALLATION INSTRUCTIONS ############################
 
 System requirements: x86_64 machine, Linux kernel OS, Free disk space of more 
